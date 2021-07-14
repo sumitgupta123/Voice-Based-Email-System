@@ -2,7 +2,7 @@ import azure.cognitiveservices.speech as speechsdk
 from tts import *
 
 def speech_to_text():
-    speech_config = speechsdk.SpeechConfig(subscription="9c3e463383ab4a469dc75d389d2fd40d", region="eastus")
+    speech_config = speechsdk.SpeechConfig(subscription="xxxxxxxxx(subscription id for azure", region="eastus")
     speech_recognizer = speechsdk.SpeechRecognizer(speech_config=speech_config)
     
     print("Speak into your microphone.")
