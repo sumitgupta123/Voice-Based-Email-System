@@ -96,8 +96,6 @@ def read_one(con,x):
             k=k+1
 
 def read_mail(mail_id,passw):
-    #user = 'sg99ready@gmail.com'
-    #password = 'ready@123'
     imap_url = 'imap.gmail.com'
     con = imaplib.IMAP4_SSL(imap_url)
     con.login(mail_id,passw)
@@ -158,6 +156,3 @@ def read_mail(mail_id,passw):
         else:
             continue
 
-
-
-#read_mail('sg99ready@gmail.com','ready@123')
