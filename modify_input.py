@@ -29,6 +29,5 @@ def mod_inp(val):
     return mod_str
 
 
-#print(mod_inp('SU hash MIT underscore B17 apostrophe 0872 Dash CS at nitc.ac.in'))
 
 
