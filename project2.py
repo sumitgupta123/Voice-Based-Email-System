@@ -37,8 +37,6 @@ def search_nickname():
         return "",0
 
 def send_mail(mail_id,passw):
-    #from_email='Sumit Gupta <sumitguptajnvalwar@gmail.com'
-    #to_email='To Sumit <sg99ready@gmail.com>'
     while True:
         text_to_speech('Do you want search for email-id by providing nickname')
         text_to_speech('say yes to continue or anything else to go ahead by providing email id')
