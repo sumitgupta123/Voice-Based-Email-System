@@ -8,9 +8,9 @@ def send_otp(mob_no):
     #we are considering indian numbers only Adding country code for the indian number
     mob_no='+91'+mob_no
 
-    client = Client('AC1eba54264335c9d30b408001920b2faf', '611c7bf543243a516eb7841d1c361a3e')
-
-    verify = client.verify.services('VA6e6a5965296f42957bc06655be2dd7e9')
+    client = Client('add twilio-account-sid', 'add your account auth_token')
+#create service for otp and add that service id here
+    verify = client.verify.services('add service id')
 
     try:
         verify.verifications.create(to=mob_no, channel='sms')
