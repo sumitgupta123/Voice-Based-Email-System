@@ -4,7 +4,7 @@ from insert1 import *
 # generate a key for encryptio and decryption 
 #key = Fernet.generate_key() 
 
-key=b'Sb-XlMir6RAZZj2kIWpcPaBvMi5otPjf-RjuYQ3jciY='
+key=b'add-your-key'
 #print(key)
 # Instance the Fernet class with the key 
 
