@@ -31,5 +31,3 @@ def register(usr,passw,mob,dob,email,emailpass):
 	#print("error")
         return 0
 
-
-#register("sumit_gupta","233dfsd332","+9184414899699",'10091999','sumitguptajnvalwar@gmail.com','sumitgupta123')
